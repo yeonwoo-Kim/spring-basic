@@ -34,4 +34,13 @@ public class Member {
         this.name = name;
         this.grade = grade;
     }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
 }

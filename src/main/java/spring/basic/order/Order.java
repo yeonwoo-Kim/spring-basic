@@ -48,4 +48,14 @@ public class Order {
     public int getDiscountPrice() {
         return discountPrice;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "memberId=" + memberId +
+                ", itemName='" + itemName + '\'' +
+                ", itemPrice=" + itemPrice +
+                ", discountPrice=" + discountPrice +
+                '}';
+    }
 }
